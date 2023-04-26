@@ -1,6 +1,21 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import {
+  ThemeProvider,
+  theme,
+  ColorModeProvider,
+  CSSReset,
+} from "@chakra-ui/react";
+import "../styles/globals.css"
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: any): JSX.Element {
+
+    return (
+        <ThemeProvider theme={theme}>
+            <ColorModeProvider>
+                <CSSReset />
+                <Component {...pageProps} />
+            </ColorModeProvider>
+        </ThemeProvider>
+    )
 }
+
+export default App
