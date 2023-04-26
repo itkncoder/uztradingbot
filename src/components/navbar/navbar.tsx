@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <Box bg={"#0b0f19"}>
+        <Box bg={"#0b0f19"} color={"white"}>
             <Box maxW={"1280px"} mx={"auto"} py={"15px"} display={"flex"} alignItems={"center"} justifyContent={"space-between"} >
 
             <Link href={"/"}>
