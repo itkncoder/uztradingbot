@@ -6,10 +6,10 @@ const Footer = () => {
         <Box bg={"#0b0f19"} color={"white"}>
             <Box maxW={"1280px"} mx={"auto"} py={"15px"} display={"flex"} alignItems={"center"} justifyContent={"space-between"}>
                 <Text>
-                    Copyright © UniSniper.com {new Date().getFullYear()}
+                    Copyright © uztradingbot.uz {new Date().getFullYear()}
                 </Text>
                 <Box>
-                    <Link href={"/"}><Text _hover={{textDecor: "underline"}}>Terms</Text></Link>
+                    <a target="_blank" href={"https://t.me/nodejs5"}><Text _hover={{textDecor: "underline"}}>Aloqa</Text></a>
                 </Box>
             </Box>
         </Box>

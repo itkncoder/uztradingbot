@@ -1,4 +1,4 @@
-import { ChatIcon } from '@chakra-ui/icons'
+import { InfoOutlineIcon, QuestionOutlineIcon } from '@chakra-ui/icons'
 import {
     Accordion,
     AccordionItem,
@@ -14,97 +14,97 @@ const Quetions = () => {
         <Box color={"black"} my={"80px"} >
 
             <Box my={"50px"} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >
-                <Text fontSize={"32px"} fontWeight={"600"} >Frequently Asked Questions</Text>
-                <Text color={"#9397ad"} fontSize={"22px"} >How can we help you?</Text>
+                <Text fontSize={"32px"} fontWeight={"600"} >Tez-tez so'raladigan savollar</Text>
+                <Text color={"#9397ad"} fontSize={"22px"} >Sizga qanday yordam bera olamiz?</Text>
             </Box>
 
             <Box maxW={"1280px"} mx={"auto"} my={"80px"} display={"flex"} justifyContent={"space-between"} alignItems={"start"} gap={"25px"} >
 
                 <Box display={"flex"} flexDirection={"column"} w={"70%"} gap={"20px"} >
                     <Box>
-                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >General</Text>
+                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >Asosiy</Text>
                         <Box border={"2px solid #949494"} borderRadius={"8px"} >
                             <Accordion allowToggle>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What is UniSniper?
+                                            UzTradingBot nima?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        UniSniper is a sniper bot for PancakeSwap decentralized exchange. Its primary function is to buy tokens as soon as they're added to the PancakeSwap. It's often called Pancakesniper or BSC sniper bot.
+                                        UzTradingBot - bu PancakeSwap markazlashtirilmagan almashinuvi uchun snayper bot. Uning asosiy vazifasi tokenlarni PancakeSwap-ga qo'shilishi bilanoq sotib olishdir. Bu ko'pincha Pancakesniper yoki BSC snayper bot deb ataladi.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What is Sniper bot?
+                                            Snayper bot nima?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        Sniper bots (or “snipe bots”) are automated bots that monitor time-based activity and submit information at the very last moment, removing the opportunity for other people to respond to that action. BSC sniper bot (PancakeSwap sniper bot) is used to buy tokens as soon as they are added to the PancakeSwap DEX. With the bot, user can buy tokens before anyone else for a lower price and sell the tokens later for profit
+                                        Snayper botlari (yoki "snayper botlari") vaqtga asoslangan faoliyatni kuzatadigan va boshqa odamlarning ushbu harakatga javob berish imkoniyatini yo'qotib, oxirgi daqiqada ma'lumotlarni taqdim etadigan avtomatlashtirilgan botlardir. BSC snayper boti (PancakeSwap snayper boti) tokenlarni PancakeSwap DEXga qo‘shilishi bilanoq sotib olish uchun ishlatiladi. Bot yordamida foydalanuvchi tokenlarni boshqalardan oldin arzonroq narxda sotib olishi va keyinchalik foyda olish uchun tokenlarni sotishi mumkin.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What setting can I tweak?
+                                            Qaysi sozlamani sozlashim mumkin?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        There are multiple setting that can be changed, here is a few of them:
-                                            Value to buy - Value in BNB you want to buy with
-                                            Liquidity value - Value in BNB bot triggers buy order. This is used to prevent "fake liquidity" scenarios, where only small amount of liquidity is added, which triggers bots to buy tokens for insanely high price, leading to money loss.
-                                            % profit return - Used for auto selling tokens after % of profit is made.
-                                            Buy mode - Bot can use different "tactics" to place a buy order. One mode can be more effective than others. It depends on your setup and you have to test what works the best for you.
+                                        O'zgartirish mumkin bo'lgan bir nechta sozlamalar mavjud, ulardan bir nechtasi:
+                                        Sotib olish qiymati - Siz sotib olmoqchi bo'lgan BNBdagi qiymat
+                                        Likvidlik qiymati - BNB botidagi qiymat xarid buyurtmasini tetiklaydi. Bu "soxta likvidlik" stsenariylarining oldini olish uchun ishlatiladi, bu erda faqat kichik miqdordagi likvidlik qo'shiladi, bu botlarni juda yuqori narxga token sotib olishga majbur qiladi va pul yo'qotishiga olib keladi.
+                                        % foyda daromadi -% daromad olingandan keyin tokenlarni avtomatik sotish uchun ishlatiladi.
+                                        Xarid qilish rejimi - Bot xarid qilish uchun buyurtma berish uchun turli "taktikalar"dan foydalanishi mumkin. Bitta rejim boshqalarga qaraganda samaraliroq bo'lishi mumkin. Bu sizning sozlashingizga bog'liq va siz uchun eng yaxshisini sinab ko'rishingiz kerak.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What requirements are there? Does it run on both Windows and Mac?
+                                            Qanday talablar mavjud? U Windows va Mac-da ishlaydimi?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        Bot software is written in JavaScript and requires NodeJS to run. NodeJS can be installed on both Windows and Mac without any problem.
+                                        Bot dasturi JavaScript-da yozilgan va ishlashi uchun NodeJS talab qilinadi. NodeJS Windows va Mac-ga hech qanday muammosiz o'rnatilishi mumkin.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            Does it need a crypto wallet? If so, which one?
+                                            Unga kripto hamyon kerakmi? Agar shunday bo'lsa, qaysi biri?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        As bot needs to make transactions. It uses private key to sign transactions. You can export private key from MetaMask or any other wallet. Detailed instructions are in our manual. Don't worry, we won't steal your wallet. Bot does not communicate with any 3rd party service, it only connects to Web3 provider. The bots source code is open to read, so you can check what funcions are called and make sure we are not using your private key to anything else.
+                                        Chunki bot tranzaktsiyalarni amalga oshirishi kerak. U tranzaktsiyalarni imzolash uchun shaxsiy kalitdan foydalanadi. Shaxsiy kalitni MetaMask yoki boshqa har qanday hamyondan eksport qilishingiz mumkin. Batafsil ko'rsatmalar bizning qo'llanmamizda mavjud. Xavotir olmang, biz sizning hamyoningizni o'g'irlamaymiz. Bot uchinchi tomon xizmatlari bilan aloqa qilmaydi, u faqat Web3 provayderiga ulanadi. Botlarning manba kodi o'qish uchun ochiq, shuning uchun siz qanday funksiyalar chaqirilishini tekshirishingiz va shaxsiy kalitingizdan boshqa hech narsa uchun foydalanmayotganimizga ishonch hosil qilishingiz mumkin.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What payments do you accept?
+                                            Qanday to'lovlarni qabul qilinadi?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        We currently only accept crypto payments in BNB. Payments are automatically processed and within 5 minutes you have access to the bot files.
+                                        Hozirda biz faqat BNBda kripto toʻlovlarini qabul qilamiz. To'lovlar avtomatik tarzda amalga oshiriladi va 5 daqiqa ichida siz bot fayllariga kirishingiz mumkin.
                                     </AccordionPanel>
                                 </AccordionItem>
                             </Accordion>
@@ -113,7 +113,7 @@ const Quetions = () => {
                     </Box>
 
                     <Box>
-                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >Features</Text>
+                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >Xususiyatlari</Text>
                         <Box border={"2px solid #949494"} borderRadius={"8px"} >
 
                             <Accordion allowToggle>
@@ -121,63 +121,63 @@ const Quetions = () => {
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            What are the main features of the bot?
+                                            Botning asosiy xususiyatlari nimada?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        List of the main features:
-                                        Mempool scanning - scans blockchain for incomming unconfirmed transactions
-                                        Liquidity value checker - Bot will place buy order only if the value of added liquidity is higher or equal than the set value
-                                        Auto profit - Sell tokens immediately as soon as profit threshold is met
-                                        Approve token - approve token for trading without the need of laggy PancakeSwap UI
-                                        Instant Buy & Sell - Buy and Sell your tokens without the need of laggy PancakeSwap UI
-                                        Multiple Buy modes - Choose from different buy modes. One buy mode can be more effective than the other. It depends on your setup. You need to test what works the best for you.
+                                        Asosiy xususiyatlar ro'yxati:
+                                        Mempool skanerlash - blokcheyn orqali kiruvchi tasdiqlanmagan tranzaktsiyalarni skanerlaydi
+                                        Likvidlik qiymatini tekshirgich - Bot faqat qo'shilgan likvidlik qiymati belgilangan qiymatdan yuqori yoki teng bo'lsa, xarid buyurtmasini beradi.
+                                        Avtomatik foyda - foyda chegarasiga erishilgandan so'ng darhol tokenlarni soting
+                                        Tokenni ma'qullash - laggy PancakeSwap UI talab qilmasdan savdo uchun tokenni tasdiqlang
+                                        Darhol sotib olish va sotish - laggy PancakeSwap UI-ga ehtiyoj sezmasdan tokenlaringizni sotib oling va soting
+                                        Bir nechta sotib olish usullari - turli xil xarid usullaridan tanlang. Bitta sotib olish rejimi boshqasidan ko'ra samaraliroq bo'lishi mumkin. Bu sizning sozlashingizga bog'liq. Siz uchun eng yaxshisini sinab ko'rishingiz kerak.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            Does the bot only buy or also sell the tokens?
+                                            Bot faqat tokenlarni sotib oladimi yoki sotadimi?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        You have different modes to chose from.
-                                        Buy - Immediately buy tokens and wait for X amount of profit, then sell tokens (used to bypass laggy PancakeSwap interface)
-                                        Sell - Immediately sell tokens immediately (used to bypass laggy PancakeSwap interface)
-                                        Snipe - Look for add liquidity transactions and buy as soon as liquidity is added, and wait for X amount of profit, then sell tokens
-                                        Approve - Approve tokens for trading (this is needed if you plan to sell tokens)
-                                        Profit - Same as the first mode, except it does not buy, but only waits for X amount of profit, then sells tokens
+                                        Siz tanlash uchun turli xil rejimlarga egasiz.
+                                        Sotib oling - Darhol tokenlarni sotib oling va X miqdorida foydani kuting, so'ngra tokenlarni soting (laggy PancakeSwap interfeysini chetlab o'tish uchun foydalaniladi)
+                                        Sotish - Tokenlarni darhol soting (laggy PancakeSwap interfeysini chetlab o'tish uchun foydalaniladi)
+                                        Snipe - Qo'shimcha likvidlik operatsiyalarini qidiring va likvidlik qo'shilishi bilanoq sotib oling va X miqdorda foydani kuting, so'ngra tokenlarni soting.
+                                        Tasdiqlash - savdo uchun tokenlarni tasdiqlash (agar siz tokenlarni sotishni rejalashtirmoqchi bo'lsangiz, bu kerak)
+                                        Daromad - Birinchi rejim bilan bir xil, faqat u sotib olmaydi, faqat X miqdorda foyda kutadi, keyin tokenlarni sotadi
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            Does it approve the token?
+                                            Tokenni tasdiqlaydimi?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        Yes, there is a mode to approve token for trading.
+                                        Ha, savdo uchun tokenni tasdiqlash rejimi mavjud.
                                     </AccordionPanel>
                                 </AccordionItem>
                                 <AccordionItem border={"0"}>
                                     <h2>
                                     <AccordionButton>
                                         <Box as="span" flex='1' fontSize={"18px"} textAlign='left'>
-                                            How effective is the bot?
+                                            Bot qanchalik samarali?
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     </h2>
                                     <AccordionPanel pb={4}>
-                                        The performance and effectiveness of the bot are highly dependent on the blockchain node you are connected to, and the internet connection of a computer where the bot is running. The quicker / more up-to-date node and lower latency internet connection, the higher the chance of your transaction being processed and confirmed in the same block as the add liquidity one. WiFi can significantly raise the latency and lower the throughput of your connection, thus significantly lowering the effectiveness of the bot. Wired connection is recommended.
+                                        Botning ishlashi va samaradorligi siz ulangan blokcheyn tuguniga va bot ishlayotgan kompyuterning internetga ulanishiga juda bog'liq. Qanchalik tez/yangiroq tugun va internetga ulanishning kechikishi past bo'lsa, tranzaktsiyangiz likvidlikni qo'shish bloki bilan bir xil blokda qayta ishlanishi va tasdiqlanishi ehtimoli shunchalik yuqori bo'ladi. WiFi kechikish vaqtini sezilarli darajada oshirishi va ulanishingizning o'tkazuvchanligini kamaytirishi mumkin, bu esa botning samaradorligini sezilarli darajada pasaytiradi. Simli ulanish tavsiya etiladi.
                                     </AccordionPanel>
                                 </AccordionItem>
 
@@ -189,12 +189,15 @@ const Quetions = () => {
                 </Box>
 
                 <Box mt={"100px"} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} gap={"8px"} >
-                    <Text fontSize={"18px"} fontWeight={"600"} >Have more questions?</Text>
-                    <Text fontSize={"17px"} color={"#33354d"} >Contact us at</Text>
-                    <a style={{color: "#6366f1"}} href="unisniper@protonmail.com">unisniper@protonmail.com</a>
-                    <Text fontSize={"17px"} fontWeight={"600"} >or our Telegram</Text>
-                    <a href="unisniper@protonmail.com">
-                        <ChatIcon fontSize={"20px"} />
+                    <Text fontSize={"20px"} fontWeight={"600"} >Boshqa savollaringiz bormi?</Text>
+                    <Text fontSize={"20px"} fontWeight={"600"} color={"#33354d"} >Biz bilan bog'laning</Text>
+                    <a style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "10px"}} href="https://t.me/uztradingbot">
+                        <Text fontSize={"18px"} >Telegram <span style={{fontWeight: "600"}}>KANAL</span>:</Text>
+                        <QuestionOutlineIcon fontSize={"20px"} />
+                    </a>
+                    <a style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "10px"}} href="https://t.me/nodejs5">
+                        <Text fontSize={"18px"}>Telegram <span style={{fontWeight: "600"}}>ADMIN</span>:</Text>
+                        <InfoOutlineIcon fontSize={"20px"} />
                     </a>
                 </Box>
 

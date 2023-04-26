@@ -14,22 +14,22 @@ const Navbar = () => {
 
             <Box display={"flex"} alignItems={"center"} justifyContent={"center"} gap={"30px"} >
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Home</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Asosiy</Text>
                 </Link>
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>About</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Biz xaqimizda</Text>
                 </Link>
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Features</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Xususiyatlar</Text>
                 </Link>
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Pricing</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Narx</Text>
                 </Link>
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>FAQ</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>TSS</Text>
                 </Link>
                 <Link href={""}>
-                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Buy</Text>
+                    <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Sotib olish</Text>
                 </Link>
             </Box>
 
