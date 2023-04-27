@@ -1,6 +1,7 @@
 import { EditIcon, InfoOutlineIcon, RepeatIcon, StarIcon, WarningTwoIcon } from "@chakra-ui/icons"
 import { Box, Button, Text } from "@chakra-ui/react"
 import Image from "next/image"
+import img from "@/assets/img.jpg"
 
 const MainFeatures = () => {
     return (
@@ -45,7 +46,7 @@ const MainFeatures = () => {
             
             <Box maxW={"1280px"} py={"80px"} mx={"auto"} display={"flex"} justifyContent={"space-between"} flexDirection={"column"} gap={"80px"} alignItems={"start"} >
                 <Box display={"flex"} justifyContent={"space-between"} gap={"30px"}>
-                    <Image style={{width: "600px"}} alt="uztradingbot" width={500} height={500} src={"https://i.imgur.com/WySnSSD.gif"} />
+                    <Image style={{width: "600px"}} alt="uztradingbot" width={500} height={500} src={img} />
                     <Box display={"flex"} flexDirection={"column"} alignItems={"start"} gap={"10px"} >
                         <Box display={"flex"} justifyContent={"start"} alignItems={"center"} gap={"8px"}>
                             <StarIcon fontSize={"32px"} color={"green.400"} />

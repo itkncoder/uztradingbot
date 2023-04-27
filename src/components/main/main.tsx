@@ -1,5 +1,6 @@
 import { Box, Button, Text } from "@chakra-ui/react"
 import Image from "next/image"
+import img from "@/assets/img.jpg"
 
 const Main = () => {
     return (
@@ -13,7 +14,7 @@ const Main = () => {
                         <Button size={"lg"} variant={"outline"} borderColor={"gray"} _hover={{bg: "white", borderColor: "white", color: "black"}} >To'liq O'qish</Button>
                     </Box>
                 </Box>
-                <Image style={{width: "640px"}} alt="uztradingbot" width={500} height={500} src={"https://i.imgur.com/WySnSSD.gif"} />
+                <Image style={{width: "750px"}} alt="uztradingbot" width={500} height={500} src={img} />
             </Box>
         </Box>
     )
