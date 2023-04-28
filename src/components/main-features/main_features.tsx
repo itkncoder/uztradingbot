@@ -6,7 +6,7 @@ import img from "@/assets/img.jpg"
 const MainFeatures = () => {
     return (
         <Box color={"black"}>
-            <Box maxW={{base: "none", lg: "1280px"}} mx={{base: "5px", lg: "auto"}} py={{base: "50px", lg: "80px"}} display={"flex"} flexDirection={{base: "column", lg: "row"}} justifyContent={"space-between"} alignItems={"start"} >
+            <Box maxW={{base: "none", lg: "1280px"}} mx={{base: "15px", lg: "auto"}} py={{base: "50px", lg: "80px"}} display={"flex"} flexDirection={{base: "column", lg: "row"}} justifyContent={"space-between"} alignItems={"start"} >
                 <Box w={{base: "100%", lg: "33.333%"}}>
                     <Text fontSize={{base: "26px", lg: "34px"}} fontWeight={"600"} textAlign={{base: "center", lg: "start"}} >Sanoatning ilg'or xususiyatlari.</Text>
                 </Box>
@@ -47,13 +47,13 @@ const MainFeatures = () => {
 
             </Box>
             
-            <Box maxW={{base: "none", lg: "1280px"}} w={"100%"} mx={{base: "5px", lg: "auto"}} py={{base: "50px", lg: "80px"}} display={"flex"} justifyContent={"space-between"} flexDirection={"column"} gap={"80px"} alignItems={"start"} >
+            <Box maxW={{base: "none", lg: "1280px"}} w={"100%"} mx={"auto"} py={{base: "50px", lg: "80px"}} display={"flex"} justifyContent={"space-between"} flexDirection={"column"} gap={"80px"} alignItems={"start"} >
 
                 <Box display={"flex"} justifyContent={"space-between"} flexDirection={{base: "column", lg: "row"}} gap={"30px"}>
                     <Box display={{base: "flex", lg: "flex"}} justifyContent={"center"} w={{base: "100%", lg: "50%"}}>
                         <Image style={{width: "90%"}} alt="uztradingbot" width={800} height={800} src={img} />
                     </Box>
-                    <Box display={"flex"} flexDirection={"column"} alignItems={"start"} w={{lg: "50%"}} gap={"10px"} >
+                    <Box px={{base: "10px", lg: "5px"}} display={"flex"} flexDirection={"column"} alignItems={"start"} w={{lg: "50%"}} gap={"10px"} >
                         <Box display={"flex"} justifyContent={"start"} alignItems={"center"} gap={"8px"}>
                             <StarIcon fontSize={"32px"} color={"green.400"} />
                             <Text fontSize={{base: "22px", lg: "32px"}} fontWeight={"600"} >Bozorda liderlik qilish</Text>
@@ -65,7 +65,7 @@ const MainFeatures = () => {
                 </Box>
 
                 <Box display={"flex"} justifyContent={"space-between"} flexDirection={{base: "column", lg: "row"}} gap={"30px"}>
-                    <Box display={"flex"} flexDirection={"column"} alignItems={"start"} pl={{base: "0", lg: "32px"}} w={{lg: "50%"}} gap={"10px"} >
+                    <Box px={{base: "10px", lg: "5px"}} display={"flex"} flexDirection={"column"} alignItems={"start"} pl={{lg: "35px"}} w={{lg: "50%"}} gap={"10px"} >
                         <Box display={"flex"} justifyContent={"start"} alignItems={"center"} gap={"8px"}>
                             <WarningTwoIcon fontSize={"32px"} color={"red.500"} />
                             <Text fontSize={{base: "22px", lg: "32px"}} fontWeight={"600"} >Bozor tushib ketdimi? Farqi yo'q!</Text>

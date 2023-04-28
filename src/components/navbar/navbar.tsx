@@ -13,26 +13,26 @@ const Navbar = () => {
                 <DrawerOverlay />
                 <DrawerContent bg={"#0b0f19"}>
                     <DrawerCloseButton />
-                    <DrawerHeader>UzTradingBot</DrawerHeader>
+                    <DrawerHeader textAlign={"center"} fontSize={"26px"} color={"white"}>UzTradingBot</DrawerHeader>
                     <DrawerBody>
-                        <Box display={"flex"} flexDirection={"column"} alignItems={"start"} justifyContent={"center"} gap={"15px"} >
+                        <Box display={"flex"} flexDirection={"column"} alignItems={"end"} justifyContent={"center"} gap={"25px"} >
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Asosiy</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>Asosiy</Text>
                             </Link>
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Biz xaqimizda</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>Biz xaqimizda</Text>
                             </Link>
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Xususiyatlar</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>Xususiyatlar</Text>
                             </Link>
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Narx</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>Narx</Text>
                             </Link>
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>TSS</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>TSS</Text>
                             </Link>
                             <Link href={""}>
-                                <Text fontSize={"18px"} _hover={{color: "#6366f1"}}>Sotib olish</Text>
+                                <Text color={"white"} fontSize={"22px"} _hover={{color: "#6366f1"}}>Sotib olish</Text>
                             </Link>
                         </Box>
                     </DrawerBody>
