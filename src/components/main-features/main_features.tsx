@@ -65,7 +65,7 @@ const MainFeatures = () => {
                 </Box>
 
                 <Box display={"flex"} justifyContent={"space-between"} flexDirection={{base: "column", lg: "row"}} gap={"30px"}>
-                    <Box display={"flex"} flexDirection={"column"} alignItems={"start"} pl={{base: "0", lg: "25px"}} w={{lg: "50%"}} gap={"10px"} >
+                    <Box display={"flex"} flexDirection={"column"} alignItems={"start"} pl={{base: "0", lg: "32px"}} w={{lg: "50%"}} gap={"10px"} >
                         <Box display={"flex"} justifyContent={"start"} alignItems={"center"} gap={"8px"}>
                             <WarningTwoIcon fontSize={"32px"} color={"red.500"} />
                             <Text fontSize={{base: "22px", lg: "32px"}} fontWeight={"600"} >Bozor tushib ketdimi? Farqi yo'q!</Text>
