@@ -11,18 +11,18 @@ import {
 
 const Quetions = () => {
     return (
-        <Box color={"black"} my={"80px"} >
+        <Box color={"black"} mb={"80px"} >
 
             <Box my={"50px"} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >
-                <Text fontSize={"32px"} fontWeight={"600"} >Tez-tez so'raladigan savollar</Text>
-                <Text color={"#9397ad"} fontSize={"22px"} >Sizga qanday yordam bera olamiz?</Text>
+                <Text fontSize={{base: "24px", lg: "32px"}} textAlign={{base: "center", lg: "start"}} fontWeight={"600"} >Tez-tez so'raladigan savollar</Text>
+                <Text color={"#9397ad"} textAlign={{base: "center", lg: "start"}} fontSize={{base: "18px", lg: "22px"}} >Sizga qanday yordam bera olamiz?</Text>
             </Box>
 
-            <Box maxW={"1280px"} mx={"auto"} my={"80px"} display={"flex"} justifyContent={"space-between"} alignItems={"start"} gap={"25px"} >
+            <Box maxW={{base: "none", lg: "1280px"}} mx={{base: "10px", lg: "auto"}} my={"80px"} display={"flex"} flexDirection={{base: "column", lg: "row"}} justifyContent={"space-between"} alignItems={"start"} gap={"25px"} >
 
-                <Box display={"flex"} flexDirection={"column"} w={"70%"} gap={"20px"} >
+                <Box display={"flex"} flexDirection={"column"} w={{base: "100%", lg: "70%"}} gap={"20px"} >
                     <Box>
-                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >Asosiy</Text>
+                        <Text my={"15px"} fontSize={{base: "20px", lg: "28px"}} fontWeight={"600"} >Asosiy</Text>
                         <Box border={"2px solid #949494"} borderRadius={"8px"} >
                             <Accordion allowToggle>
                                 <AccordionItem border={"0"}>
@@ -113,7 +113,7 @@ const Quetions = () => {
                     </Box>
 
                     <Box>
-                        <Text my={"15px"} fontSize={"28px"} fontWeight={"600"} >Xususiyatlari</Text>
+                        <Text my={"15px"} fontSize={{base: "20px", lg: "28px"}} fontWeight={"600"} >Xususiyatlari</Text>
                         <Box border={"2px solid #949494"} borderRadius={"8px"} >
 
                             <Accordion allowToggle>
@@ -188,7 +188,7 @@ const Quetions = () => {
 
                 </Box>
 
-                <Box mt={"100px"} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} gap={"8px"} >
+                <Box mt={"100px"} w={{base: "100%", lg: "fit-content"}} display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"} gap={"8px"} >
                     <Text fontSize={"20px"} fontWeight={"600"} >Boshqa savollaringiz bormi?</Text>
                     <Text fontSize={"20px"} fontWeight={"600"} color={"#33354d"} >Biz bilan bog'laning</Text>
                     <a style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "10px"}} href="https://t.me/uztradingbot">
